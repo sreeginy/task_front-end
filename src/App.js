@@ -1,5 +1,6 @@
 import React from 'react'
-import TopNavigation from './components/Navbar/TopNavigation';
+import TopNavigation from './components/TopNavigation/TopNavigation';
+import Hero from './components/Hero/Hero';
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
     <div>
 
       <TopNavigation />
+      <Hero />
 
     </div>
 
