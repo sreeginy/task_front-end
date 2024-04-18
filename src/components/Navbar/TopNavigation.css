@@ -1,0 +1,39 @@
+nav{
+    width: 100%;
+    background-color: #6B3CC9;
+    color: #fff;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+
+    gap: 28px;
+    opacity: 0px;
+    
+}
+
+
+.logo{
+    width: 238.89px;
+    height: 36.11px;
+    top: -11.11px;
+    gap: 0px;
+    opacity: 0px;
+   
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+    gap: 28px;
+    opacity: 0px;
+
+}
