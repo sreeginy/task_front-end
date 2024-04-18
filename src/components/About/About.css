@@ -1,0 +1,38 @@
+.about {
+    background-color: white;
+  }
+  
+  .about_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+
+width: Hug (1,064px)px;
+height: Hug (414px)px;
+top: 857px;
+left: 188px;
+gap: 108px;
+opacity: 0px;
+  }
+  
+  .about_img {
+    width: 414px;
+    height: 414px;
+    background-color: white; /* Hide the image's background */
+  }
+  
+  .button {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+
+
