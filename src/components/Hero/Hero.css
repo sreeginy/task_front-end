@@ -65,7 +65,7 @@
 
 @media (max-width: 768px) {
     .hero {
-        background-image: url('../../assets/hero.png.jpg'); 
+        background-image: url('../../assets/img.jpg'); 
         background-size: cover;
     }
 
@@ -74,12 +74,12 @@
         margin: 50px auto;
     }
 }
-
 @media (max-width: 375px) {
     .hero {
-        background-image: url('../../assets/hero02.png'); 
-        width: 462.19px;
-        height: 327.5px;
+        background-image: url('../../assets/img.jpg'); 
+        background-size: 375px 218px fixed/cover; 
+        width: 100%;
+        height: auto; 
         top: -106px;
         gap: 0px;
         opacity: 0px;
@@ -99,7 +99,7 @@
         font-size: 12px;
         line-height: 12px;
     }
-    .box .box.text{
+    .box .text{
         font-size: 36px;
     }
 }

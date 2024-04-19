@@ -1,6 +1,6 @@
 .Frame499 {
     background-color: white;
-    padding: 50px;
+    padding: 40px;
   }
   
   .Frame499_container {
@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    text-align: center; 
+    text-align: left; 
   }
   
   .Frame_img {
@@ -19,7 +19,9 @@
     background-color: white;
     margin: 0 auto; 
   }
-  
+  .title{
+    margin-bottom: 1%;
+}
   .Frame499_data {
     font-family: Poppins;
     font-size: 27px;
