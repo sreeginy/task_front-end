@@ -1,0 +1,54 @@
+
+
+.section_title{
+    padding: 6% 0 2%; /* top, right/left, bottom */
+    text-align: center;
+
+
+    color: #6B3CC9;
+font-size: 27px;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: 0.4000000059604645px;
+
+
+
+}
+
+.ExpandableCard {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion {
+    width: 700px;
+}
+
+.item{
+    background: #FAF8FF;
+    margin-bottom: 10px;
+    padding: 15px 25px;
+}
+
+.title{
+    color: #6B3CC9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    color: #6F6C90;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.content.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}
