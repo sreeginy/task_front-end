@@ -70,10 +70,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-![picture01](https://github.com/sreeginy/task_front-end/assets/82145482/b5053b37-3d6b-4218-95f8-32cd4053c863)
+![picture01](https://github.com/sreeginy/task_front-end/assets/82145482/dcebf506-7996-44aa-a2bd-6d8ab6325570)
 
-![picture02](https://github.com/sreeginy/task_front-end/assets/82145482/106dae7e-8082-4b4e-b256-9bbb7c6a98b5)
+![picture02](https://github.com/sreeginy/task_front-end/assets/82145482/d9302e54-ff86-42fb-83f0-858c483c65a5)
 
-![picture03](https://github.com/sreeginy/task_front-end/assets/82145482/e2e956a3-66de-4afa-8777-5e9fa59eb071)
+![picture03](https://github.com/sreeginy/task_front-end/assets/82145482/dfff43e8-00a0-43e9-82e3-ea7ed7d0d3c1)
 
-![picture04](https://github.com/sreeginy/task_front-end/assets/82145482/2d071eb5-d36f-4941-89f5-79bef400f8c5)
+![picture04](https://github.com/sreeginy/task_front-end/assets/82145482/646152e5-64af-4019-9546-d948b53663f9)
