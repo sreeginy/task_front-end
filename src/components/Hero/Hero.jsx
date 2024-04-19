@@ -1,9 +1,17 @@
 import React from 'react'
 import './Hero.css'
 import { Box, Button } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 
 const Hero = () => {
+
+  const navigate = useNavigate();
+
+  const handleConsultationClick = () => {
+    navigate('/get-free-consultation');
+  };
+
   return (
 
     <div className='hero section'>
@@ -23,14 +31,12 @@ const Hero = () => {
     We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
   </Box>
   <Box alignSelf="flex-start"> {/* Align button to end (right) */}
-    <Button variant="contained" className="button">
+    
+    <Button variant="contained" className="button" onClick={handleConsultationClick}>
       GET FREE CONSULTATION
     </Button>
   </Box>
 </Box>
-
-
-
 
     </div>
 
