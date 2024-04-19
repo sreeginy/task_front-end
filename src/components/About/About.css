@@ -1,38 +1,86 @@
 .about {
-    background-color: white;
-  }
-  
+  background-color: white;
+  padding: 50px;
+}
+
+.about_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  align-items: center;
+  justify-content: center;
+  gap: 50px; 
+  text-align: left;
+}
+
+.about_img {
+  width: 100%; 
+  max-width: 414px; 
+  height: auto; 
+  background-color: white;
+}
+
+.about_data {
+  font-family: Poppins;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0.4px;
+  margin-bottom: 20px; 
+  text-align: left;
+  color: #6B3CC9;
+}
+
+.about_description {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 20px; 
+}
+
+.button {
+  background-color: #F28D35;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2; 
+  letter-spacing: -0.02em;
+  width: auto;
+  height: 38px;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+/* ----------------------------------------------------  Breakpoints */
+
+
+@media (max-width: 1200px) {
   .about_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-
-
-width: Hug (1,064px)px;
-height: Hug (414px)px;
-top: 857px;
-left: 188px;
-gap: 108px;
-opacity: 0px;
+    gap: 30px;
   }
-  
-  .about_img {
-    width: 414px;
-    height: 414px;
-    background-color: white; /* Hide the image's background */
+}
+
+@media (max-width: 768px) {
+  .about_container {
+    grid-template-columns: 1fr; 
+    text-align: center; 
   }
-  
-  .button {
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 14px;
-    letter-spacing: -0.02em;
-    text-align: left;
+}
+
+@media (max-width: 375px) {
+  .about_container {
+    gap: 10px; 
+    text-align: center;
+  }
+  .about_data {
+    text-align: center;
+    font-size: 27px;
   }
 
+  .about_description {
+    text-align: center;
+    font-size: 16px;
+  }
 
-
+}

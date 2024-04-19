@@ -4,14 +4,18 @@ import FrameImg from '../../assets/image 1.png';
 
 const Frame499 = () => {
   return (
-    <section className="Frame499 section" id="Frame499">
+    <section className="Frame499" id="Frame499">
+         <div className="container">
       <div className="Frame499_container">
-        <div className="Frame499_data">
-          <h2 className="section_title">Web & Mobile App Development</h2>
-          <p className="Frame499_description">Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online.</p>
+        <div alignSelf="flex-start">
+          <h2 className="section_title">Digital Strategy Consulting</h2>
+          <p className="Frame499_description">Your digital strategy should complement the overall marketing strategy of the company. In online marketing, each component will never work in isolation and every business needs a different mix. We provide a clear concept and strategic overview to find the most efficient model for your business.</p>
           <button className='button'>LEARN MORE</button>
         </div>
-        <img src={FrameImg} alt="" className="Frame499_img" />
+        <div className="img-align">
+        <img src={FrameImg} alt="" className="Frame_img" />
+        </div>
+      </div>
       </div>
     </section>
   );

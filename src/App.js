@@ -16,7 +16,10 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/get-free-consultation" element={<ConsultationPage />} />
       </Routes>
+      <div> 
       <Footer />
+      </div>
+     
     </Router>
   );
 };
