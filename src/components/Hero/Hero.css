@@ -10,31 +10,45 @@
 }
 
 .box {
+    width: 630px;
+    height: 306px;
     margin-top: 354px;
     margin-left: 80px;
     padding: 24px 40px 32px 40px;
     gap: 20px;
     opacity: 0px;
     background: linear-gradient(to bottom right, #1CBDDD, #4DCA79);
-    
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
 
-font-size: 48px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: -0.02em;
-text-align: left;
 
   }
 
-  .button {
+  .box-align{
+    margin-top: 354px;
+  }
+
+  .box .box-text{
+    color: #fff;
+    size: 48px;
+    line-height: 48px;
+    font-family: Inter;
+    letter-spacing: -2%;
+    font-weight: 700;
+
+  }
+
+  .box .button {
     background-color: #F28D35;
     width: 214px;
     height: 38px;
-    padding: 12px 20px;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -2;
+    gap: 8px;
     border-radius: 4px;
-    opacity: 0px;
-    font-size: 16px;
-    cursor: pointer;
-    border: 0;
-    outline: 0;
+    padding: 12px, 20px, 12px, 20px;
 }

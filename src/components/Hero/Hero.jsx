@@ -15,29 +15,30 @@ const Hero = () => {
   return (
 
     <div className='hero section'>
-      
+      <div className='box-align'>
       <Box
-  height={306}
-  width={630}
-  my={4}
-  display="flex"
-  flexDirection="column" // Set flex direction to column
-  alignItems="flex-start" // Align items to start (left)
-  gap={4}
-  p={2}
-  className="box"
->
-  <Box>
-    We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
-  </Box>
-  <Box alignSelf="flex-start"> {/* Align button to end (right) */}
+          height={306}
+          width={630}
+          my={4}
+          display="flex"
+          flexDirection="column" 
+          alignItems="flex-start"
+          gap={4}
+          p={2}
+          className="box"
+        >
+        <Box className='box-text'>
+          We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
+        </Box>
+        <Box alignSelf="flex-start">
     
-    <Button variant="contained" className="button" onClick={handleConsultationClick}>
-      GET FREE CONSULTATION
-    </Button>
-  </Box>
+        <Button variant="contained" className="button" onClick={handleConsultationClick}>
+          GET FREE CONSULTATION
+        </Button>
+        
+     </Box>
 </Box>
-
+</div>
     </div>
 
   )
